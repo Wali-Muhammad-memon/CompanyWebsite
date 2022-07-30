@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Blog Website</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!---owl main css file-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="./assets/css/owl.carousel.css">
+      <link rel="stylesheet" href="./assets/css/owl.theme.green.css">
+      <link rel="stylesheet" href="./assets/css/all.min.css">
+      <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+      <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+      <!---owl js file--->
+      <script src="./assets/js/jquery.min.js"></script>
+      <script src="./assets/js/owl.carousel.min.js"></script>
+   </head>
+   <body>
+      <!---Sidebar Menu -->
+      <div class="sidebar_container" id="sidebar_on">
+         <div class="sidebar_main_wrapper">
+            <div class="sidebar_head">
+               <div class="sidebar_img_box">
+                  <img src="./assets/images/home_logo.png" alt="group" class="sidebarlogo">
+               </div>
+               <div class="sidebar_close">
+                  <span class="close_border" id="close_cross"><i class="fas fa-times"></i></span>
+               </div>
+            </div>
+            <div class="sidebar_body">
+               <div class="sidebar_nav_box">
+                  <ul class="un_sidebar">
+                     <li class="sidebar_list"><a href="#" class="sidebar_list_link">Home</a></li>
+                     <li class="sidebar_list"><a href="./aboutus.html" class="sidebar_list_link">About us</a></li>
+                     <li class="sidebar_list dropdown_sdlist">
+                        <a href="./product.html" class="sidebar_list_link sddropbtn">Products
+                        <span><i class="fas fa-chevron-right"></i></span>
+                        </a>
+                        <div class="sd_dropdown-content">
+                           <a href="singleproduct.html">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right sd-p-icon" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                 <line x1="5" y1="12" x2="19" y2="12" />
+                                 <line x1="13" y1="18" x2="19" y2="12" />
+                                 <line x1="13" y1="6" x2="19" y2="12" />
+                              </svg>
+                              Product One
+                           </a>
+                           <a href="singleproduct.html">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right sd-p-icon" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                 <line x1="5" y1="12" x2="19" y2="12" />
+                                 <line x1="13" y1="18" x2="19" y2="12" />
+                                 <line x1="13" y1="6" x2="19" y2="12" />
+                              </svg>
+                              Product Two
+                           </a>
+                           <a href="singleproduct.html">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right sd-p-icon" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                 <line x1="5" y1="12" x2="19" y2="12" />
+                                 <line x1="13" y1="18" x2="19" y2="12" />
+                                 <line x1="13" y1="6" x2="19" y2="12" />
+                              </svg>
+                              Product Three
+                           </a>
+                           <a href="singleproduct.html">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right sd-p-icon" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                 <line x1="5" y1="12" x2="19" y2="12" />
+                                 <line x1="13" y1="18" x2="19" y2="12" />
+                                 <line x1="13" y1="6" x2="19" y2="12" />
+                              </svg>
+                              Product Four
+                           </a>
+                           <a href="singleproduct.html">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right sd-p-icon" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                 <line x1="5" y1="12" x2="19" y2="12" />
+                                 <line x1="13" y1="18" x2="19" y2="12" />
+                                 <line x1="13" y1="6" x2="19" y2="12" />
+                              </svg>
+                              Product Five
+                           </a>
+                        </div>
+                     </li>
+                     <li class="sidebar_list"><a href="./services.html" class="sidebar_list_link">Services</a></li>
+                     <li class="sidebar_list"><a href="./partner.html" class="sidebar_list_link">Partner</a></li>
+                     <li class="sidebar_list"><a href="./career.html" class="sidebar_list_link">Career</a></li>
+                     <li class="sidebar_list"><a href="./contactus.html" class="sidebar_list_link">Contact us</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!---Top info--->
+      <div class="top_nav">
+         <div class="top_nav_wrap">
+            <div class="left_side">
+               <ul class="left_un">
+                  <li class="list_un_list">
+                     <a href="#" class="list_un_list_item">+92 42 111 100 000</a>
+                  </li>
+                  <li class="list_un_list">
+                     <a href="#" class="list_un_list_item">services@abcgroup.com</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="right_side">
+               <ul class="top_info_un">
+                  <li class="top_info_list"><a href="#" class="top_info_item">
+                     FAQ
+                     </a>
+                  </li>
+                  <li class="top_info_list"><a href="#" class="top_info_item">
+                     Help
+                     </a>
+                  </li>
+                  <li class="top_info_list list_info_dropdown dropdown">
+                     <a href="#" onclick="myFunction()" class="top_info_item list_info_item dropbtn">
+                     English
+                     <span class="top_lang_icon"><i class="fas fa-angle-down"></i></span>
+                     </a>
+                     <div id="myDropdown" class="dropdown-content-two">
+                        <a href="#">Urdu <bdo dir="rtl">اردو</bdo></a>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!----Navigation bar -->
+      <nav class="navigation_container">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="nav_main_wrapper">
+                     <div class="logo_box_wrap">
+                        <img src="./assets/images/home_logo.png" alt="img" class="logo_img">
+                     </div>
+                     <div class="nav_wrap">
+                        <ul class="primary_nav_un">
+                           <li class="prime_menu primary_nav_list">
+                              <a href="#" class="primary_nav_list_item">
+                              Home
+                              </a>
+                           </li>
+                           <li class="prime_menu primary_nav_list">
+                              <a href="./aboutus.html" class="primary_nav_list_item">
+                              About us
+                              </a>
+                           </li>
+                           <li class="prime_menu primary_nav_list dropdown_list">
+                              <a href="./product.html" class="primary_nav_list_item dropbtn">
+                              Our Products <span class="down_icon"><i class="fas fa-chevron-down"></i></span>
+                              </a>
+                              <div class="dropdown-content">
+                                 <a href="singleproduct.html">Product One</a>
+                                 <a href="singleproduct.html">Product Two</a>
+                                 <a href="singleproduct.html">Product three</a>
+                                 <a href="singleproduct.html">Product Four</a>
+                                 <a href="singleproduct.html">Product Five</a>
+                              </div>
+                           </li>
+                           <li class="prime_menu primary_nav_list second_dropdown_list">
+                              <a href="#" class="primary_nav_list_item second_dropbtn">
+                              Services <span class="down_icon"><i class="fas fa-chevron-down"></i></span>
+                              </a>
+                              <div class="second_dropdown-content">
+                                 <a href="servicepage.html">Service One</a>
+                                 <a href="servicepage.html">Service Two</a>
+                                 <a href="servicepage.html">Service three</a>
+                              </div>
+                           </li>
+                           <li class="prime_menu primary_nav_list">
+                              <a href="./career.html" class="primary_nav_list_item">
+                              Career
+                              </a>
+                           </li>
+                           <li class="prime_menu primary_nav_list">
+                              <a href="./contactus.html" class="primary_nav_list_item">
+                              Contact Us
+                              </a>
+                           </li>
+                           <li class="prime_menu primary_nav_list">
+                              <a href="#" class="primary_nav_list_item">
+                              Log-In
+                              </a>
+                           </li>
+                           <li class="nav_primary_icon"><a href="#" class="primary_nav_list_item primary_icon" id="side_menu_bar">
+                              <span class="nav_bar_icon">
+                              <i class="fas fa-bars"></i>
+                              </span>
+                              </a>
+                           </li>
+                           <li class="nav_secondary_icon">
+                              <a href="#" class="primary_nav_list_item secondary_icon" id="index_search_bar">
+                              <span class="nav_search_icon">
+                              <i class="fas fa-search"></i>
+                              </span>
+                              </a>
+                           </li>
+                           <li class="search_continer">
+                              <div id="search-box" class="clearfix">
+                                 <form class="search-form" action="#" method="get">
+                                    <input type="search" name="s" class="search-field" placeholder="Search …" autocomplete="off">
+                                    <button type="submit" class="search-submit"><i class="fa fa-search s-icon"></i></button>
+                                 </form>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <main class="main_wrapper">
+         <!---main slider--->
+         <div class="home_slider">
+            <div class="main_slider">
+               <div class="banner_slider owl-loaded owl-drag">
+                  <div class="owl-stage-outer">
+                     <div class="owl-stage" style="transform: translate3d(-3788px, 0px, 0px); transition: all 0.25s ease 0s; width: 7578px;">
+                        <div class="owl-item cloned" style="width: 1262.94px;">
+                           <a href="#" target="_blank">
+                              <div class="slider_img">
+                                 <h4> Focus on white masterbtach </h4>
+                                 <p> Enter this discount code at checkout to save 10% on all orders at bluebella.</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="owl-item cloned" style="width: 1262.94px;">
+                           <a href="#" target="_blank">
+                              <div class="slider_img">
+                                 <h4> Focus on yellow masterbtach </h4>
+                                 <p> Click on this link and get special offers and discounts with Palladio newsletter sign up.</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="owl-item" style="width: 1262.94px;">
+                           <a href="#" target="_blank">
+                              <div class="slider_img">
+                                 <h4> Focus on green masterbtach </h4>
+                                 <p> Enter this discount code at checkout to save 10% on all orders at bluebella.</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="owl-item active" style="width: 1262.94px;">
+                           <a href="#" target="_blank">
+                              <div class="slider_img">
+                                 <h4> Save On Palladio Sale Items </h4>
+                                 <p> Click on this link and get special offers and discounts with Palladio newsletter sign up.</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="owl-item cloned" style="width: 1262.94px;">
+                           <a href="#" target="_blank">
+                              <div class="slider_img">
+                                 <h4> Focus on red masterbtach </h4>
+                                 <p> Enter this discount code at checkout to save 10% on all orders at bluebella.</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="owl-item cloned" style="width: 1262.94px;">
+                           <a href="#" target="_blank">
+                              <div class="slider_img">
+                                 <h4> Focus on black masterbtach </h4>
+                                 <p> Click on this link and get special offers and discounts with Palladio newsletter sign up.</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div>
+                  <div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div>
+               </div>
+            </div>
+         </div>
+         <!---about group section-->
+         <section class="about_wrapper">
+            <div class="about_container">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="about_flex_wrapper">
+                           <div class="about_left_side" data-aos="fade-right">
+                              <div class="left_content_box">
+                                 <div class="about_header_box">
+                                    <h3>About Us</h3>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                                    </p>
+                                 </div>
+                                 <p class="paragraph_content">Established in 1966, Shaheen Grinding Mills was a limited production unit that developed into the largest grounded calcium carbonate unit in Pakistan over the years with an installed production capacity of 170,000 tonners per year in micron sizes ranging from 100 microns to 1 micron. 
+                                    The main attributes we take care of are; particle size, color, and purity. 
+                                    In addition to hard work and the use of advanced and sophisticated equipment, 
+                                    “Recruit, Train, Retain” is our mantra.
+                                 </p>
+                                 <button class="load_more_btn">Learn more
+                                 <span class="load_icon"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+                                 </button>
+                              </div>
+                           </div>
+                           <div class="about_right_side" data-aos="fade-left">
+                              <div class="inner-column wow fadeInLeft">
+                                 <figure class="image-1"><a href="#"><img src="./assets/images/woman-stands-addressing-colleagues-meeting-vertical-93538230.jpg" alt=""></a></figure>
+                                 <figure class="image-2"><a href="#"><img src="./assets/images/diverse-team-laughing.jpg" alt=""></a></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!---Our product section -->
+         <section class="product_wrapper">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="product_container">
+                        <div class="contact_header_box">
+                           <h3>What we Offer</h3>
+                           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                           </p>
+                        </div>
+                        <div class="product_body_wrapper">
+                           <div class="product_grid_box">
+                              <div class="product_grid_item" data-aos="fade-down-right">
+                                 <div class="product_main_wrapper">
+                                    <div class="service_box">
+                                       <div class="box_img">
+                                          <svg xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="64.31" height="54.59" viewBox="0 0 64.31 54.59">
+                                             <path d="M61.295,46.491 L38.467,46.491 L39.974,52.557 L43.209,52.557 C43.764,52.557 44.214,53.010 44.214,53.567 C44.214,54.127 43.764,54.579 43.209,54.579 L21.104,54.579 C20.549,54.579 20.099,54.127 20.099,53.567 C20.099,53.010 20.549,52.557 21.104,52.557 L24.338,52.557 L25.846,46.491 L3.018,46.491 C1.356,46.491 0.004,45.132 0.004,43.460 L0.004,3.026 C0.004,1.353 1.356,-0.007 3.018,-0.007 L61.295,-0.007 C62.957,-0.007 64.309,1.353 64.309,3.026 L64.309,43.460 C64.309,45.132 62.957,46.491 61.295,46.491 ZM37.903,52.557 L36.396,46.491 L27.917,46.491 L26.410,52.557 L37.903,52.557 ZM62.299,3.026 C62.299,2.468 61.849,2.016 61.295,2.016 L3.018,2.016 C2.464,2.016 2.013,2.468 2.013,3.026 L2.013,36.383 L62.299,36.383 L62.299,3.026 ZM62.299,38.406 L2.013,38.406 L2.013,43.460 C2.013,44.017 2.464,44.471 3.018,44.471 L61.295,44.471 C61.849,44.471 62.299,44.017 62.299,43.460 L62.299,38.406 ZM33.161,42.449 L31.152,42.449 C30.597,42.449 30.147,41.997 30.147,41.438 C30.147,40.880 30.597,40.427 31.152,40.427 L33.161,40.427 C33.716,40.427 34.166,40.880 34.166,41.438 C34.166,41.997 33.716,42.449 33.161,42.449 ZM7.037,6.059 L57.276,6.059 C57.830,6.059 58.280,6.420 58.280,6.868 C58.280,7.314 57.830,7.677 57.276,7.677 L7.037,7.677 C6.482,7.677 6.032,7.314 6.032,6.868 C6.032,6.420 6.482,6.059 7.037,6.059 ZM7.037,11.113 L37.180,11.113 C37.735,11.113 38.185,11.474 38.185,11.922 C38.185,12.369 37.735,12.730 37.180,12.730 L7.037,12.730 C6.482,12.730 6.032,12.369 6.032,11.922 C6.032,11.474 6.482,11.113 7.037,11.113 ZM6.836,24.254 C7.280,24.254 7.640,24.706 7.640,25.265 L7.640,31.330 C7.640,31.889 7.280,32.341 6.836,32.341 C6.392,32.341 6.032,31.889 6.032,31.330 L6.032,25.265 C6.032,24.706 6.392,24.254 6.836,24.254 ZM11.860,22.233 C12.304,22.233 12.664,22.684 12.664,23.243 L12.664,31.330 C12.664,31.889 12.304,32.341 11.860,32.341 C11.416,32.341 11.056,31.889 11.056,31.330 L11.056,23.243 C11.056,22.684 11.416,22.233 11.860,22.233 ZM16.884,20.210 C17.328,20.210 17.688,20.662 17.688,21.222 L17.688,31.330 C17.688,31.889 17.328,32.341 16.884,32.341 C16.440,32.341 16.080,31.889 16.080,31.330 L16.080,21.222 C16.080,20.662 16.440,20.210 16.884,20.210 ZM21.908,18.189 C22.352,18.189 22.712,18.641 22.712,19.199 L22.712,31.330 C22.712,31.889 22.352,32.341 21.908,32.341 C21.464,32.341 21.104,31.889 21.104,31.330 L21.104,19.199 C21.104,18.641 21.464,18.189 21.908,18.189 ZM40.486,12.841 C40.305,12.649 40.195,12.385 40.195,12.125 C40.195,11.850 40.305,11.598 40.486,11.407 C40.857,11.032 41.541,11.032 41.913,11.407 C42.093,11.598 42.204,11.850 42.204,12.125 C42.204,12.396 42.093,12.649 41.913,12.841 C41.722,13.023 41.460,13.134 41.199,13.134 C40.938,13.134 40.677,13.023 40.486,12.841 ZM44.505,12.841 C44.324,12.649 44.214,12.396 44.214,12.125 C44.214,11.850 44.324,11.598 44.505,11.407 C44.876,11.032 45.560,11.032 45.932,11.407 C46.112,11.598 46.223,11.850 46.223,12.125 C46.223,12.385 46.112,12.649 45.932,12.841 C45.741,13.023 45.490,13.134 45.218,13.134 C44.957,13.134 44.696,13.023 44.505,12.841 ZM48.524,12.841 C48.343,12.649 48.233,12.385 48.233,12.125 C48.233,11.861 48.343,11.598 48.524,11.407 C48.906,11.032 49.579,11.032 49.951,11.407 C50.131,11.598 50.242,11.850 50.242,12.125 C50.242,12.396 50.131,12.649 49.951,12.841 C49.760,13.023 49.498,13.134 49.237,13.134 C48.976,13.134 48.715,13.023 48.524,12.841 ZM52.543,12.841 C52.362,12.649 52.252,12.396 52.252,12.125 C52.252,11.850 52.362,11.598 52.543,11.407 C52.915,11.042 53.588,11.032 53.970,11.407 C54.150,11.598 54.261,11.861 54.261,12.125 C54.261,12.385 54.150,12.649 53.970,12.841 C53.779,13.023 53.518,13.134 53.257,13.134 C52.995,13.134 52.734,13.023 52.543,12.841 ZM57.276,13.134 C57.014,13.134 56.753,13.023 56.562,12.841 C56.381,12.649 56.271,12.385 56.271,12.125 C56.271,11.861 56.381,11.598 56.562,11.407 C56.934,11.032 57.617,11.032 57.989,11.407 C58.170,11.598 58.280,11.861 58.280,12.125 C58.280,12.385 58.170,12.649 57.989,12.841 C57.798,13.023 57.537,13.134 57.276,13.134 ZM35.171,20.210 L57.276,20.210 C57.830,20.210 58.280,20.572 58.280,21.019 C58.280,21.465 57.830,21.827 57.276,21.827 L35.171,21.827 C34.616,21.827 34.166,21.465 34.166,21.019 C34.166,20.572 34.616,20.210 35.171,20.210 ZM35.171,25.265 L57.276,25.265 C57.830,25.265 58.280,25.626 58.280,26.073 C58.280,26.521 57.830,26.882 57.276,26.882 L35.171,26.882 C34.616,26.882 34.166,26.521 34.166,26.073 C34.166,25.626 34.616,25.265 35.171,25.265 ZM35.171,30.319 L45.218,30.319 C45.773,30.319 46.223,30.680 46.223,31.127 C46.223,31.574 45.773,31.935 45.218,31.935 L35.171,31.935 C34.616,31.935 34.166,31.574 34.166,31.127 C34.166,30.680 34.616,30.319 35.171,30.319 ZM49.951,30.612 C50.131,30.803 50.242,31.067 50.242,31.330 C50.242,31.592 50.131,31.855 49.951,32.047 C49.760,32.229 49.498,32.341 49.237,32.341 C48.976,32.341 48.715,32.229 48.524,32.047 C48.343,31.855 48.233,31.601 48.233,31.330 C48.233,31.056 48.343,30.803 48.524,30.612 C48.896,30.238 49.569,30.238 49.951,30.612 ZM53.970,30.612 C54.150,30.803 54.261,31.067 54.261,31.330 C54.261,31.592 54.150,31.855 53.970,32.047 C53.779,32.229 53.518,32.341 53.257,32.341 C52.995,32.341 52.734,32.229 52.543,32.047 C52.362,31.855 52.252,31.592 52.252,31.330 C52.252,31.067 52.362,30.803 52.543,30.612 C52.925,30.238 53.588,30.238 53.970,30.612 ZM57.989,30.612 C58.170,30.803 58.280,31.067 58.280,31.330 C58.280,31.592 58.170,31.855 57.989,32.047 C57.798,32.229 57.537,32.341 57.276,32.341 C57.014,32.341 56.753,32.229 56.562,32.047 C56.381,31.855 56.271,31.592 56.271,31.330 C56.271,31.067 56.381,30.803 56.562,30.612 C56.944,30.238 57.617,30.238 57.989,30.612 Z" class="cls-web web_icon">    
+                                             </path>
+                                          </svg>
+                                          <span class="round lazyloaded"></span>
+                                       </div>
+                                       <h3 class="tertiary_heading">tertiary_heading</h3>
+                                       <div class="box_content">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                          Architecto dolorem ut maiores provident ullam rem exercitationem est doloremque ab, 
+                                          illo facere! Molestias numquam est recusandae consequatur aspernatur dolorum, 
+                                          <button class="get_qoute_btn">
+                                          View More <span><i class="fas fa-arrow-right"></i></span>
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="product_grid_item">
+                                 <div class="product_main_wrapper">
+                                    <div class="service_box">
+                                       <div class="box_img">
+                                          <svg xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="64.31" height="54.59" viewBox="0 0 64.31 54.59">
+                                             <path d="M61.295,46.491 L38.467,46.491 L39.974,52.557 L43.209,52.557 C43.764,52.557 44.214,53.010 44.214,53.567 C44.214,54.127 43.764,54.579 43.209,54.579 L21.104,54.579 C20.549,54.579 20.099,54.127 20.099,53.567 C20.099,53.010 20.549,52.557 21.104,52.557 L24.338,52.557 L25.846,46.491 L3.018,46.491 C1.356,46.491 0.004,45.132 0.004,43.460 L0.004,3.026 C0.004,1.353 1.356,-0.007 3.018,-0.007 L61.295,-0.007 C62.957,-0.007 64.309,1.353 64.309,3.026 L64.309,43.460 C64.309,45.132 62.957,46.491 61.295,46.491 ZM37.903,52.557 L36.396,46.491 L27.917,46.491 L26.410,52.557 L37.903,52.557 ZM62.299,3.026 C62.299,2.468 61.849,2.016 61.295,2.016 L3.018,2.016 C2.464,2.016 2.013,2.468 2.013,3.026 L2.013,36.383 L62.299,36.383 L62.299,3.026 ZM62.299,38.406 L2.013,38.406 L2.013,43.460 C2.013,44.017 2.464,44.471 3.018,44.471 L61.295,44.471 C61.849,44.471 62.299,44.017 62.299,43.460 L62.299,38.406 ZM33.161,42.449 L31.152,42.449 C30.597,42.449 30.147,41.997 30.147,41.438 C30.147,40.880 30.597,40.427 31.152,40.427 L33.161,40.427 C33.716,40.427 34.166,40.880 34.166,41.438 C34.166,41.997 33.716,42.449 33.161,42.449 ZM7.037,6.059 L57.276,6.059 C57.830,6.059 58.280,6.420 58.280,6.868 C58.280,7.314 57.830,7.677 57.276,7.677 L7.037,7.677 C6.482,7.677 6.032,7.314 6.032,6.868 C6.032,6.420 6.482,6.059 7.037,6.059 ZM7.037,11.113 L37.180,11.113 C37.735,11.113 38.185,11.474 38.185,11.922 C38.185,12.369 37.735,12.730 37.180,12.730 L7.037,12.730 C6.482,12.730 6.032,12.369 6.032,11.922 C6.032,11.474 6.482,11.113 7.037,11.113 ZM6.836,24.254 C7.280,24.254 7.640,24.706 7.640,25.265 L7.640,31.330 C7.640,31.889 7.280,32.341 6.836,32.341 C6.392,32.341 6.032,31.889 6.032,31.330 L6.032,25.265 C6.032,24.706 6.392,24.254 6.836,24.254 ZM11.860,22.233 C12.304,22.233 12.664,22.684 12.664,23.243 L12.664,31.330 C12.664,31.889 12.304,32.341 11.860,32.341 C11.416,32.341 11.056,31.889 11.056,31.330 L11.056,23.243 C11.056,22.684 11.416,22.233 11.860,22.233 ZM16.884,20.210 C17.328,20.210 17.688,20.662 17.688,21.222 L17.688,31.330 C17.688,31.889 17.328,32.341 16.884,32.341 C16.440,32.341 16.080,31.889 16.080,31.330 L16.080,21.222 C16.080,20.662 16.440,20.210 16.884,20.210 ZM21.908,18.189 C22.352,18.189 22.712,18.641 22.712,19.199 L22.712,31.330 C22.712,31.889 22.352,32.341 21.908,32.341 C21.464,32.341 21.104,31.889 21.104,31.330 L21.104,19.199 C21.104,18.641 21.464,18.189 21.908,18.189 ZM40.486,12.841 C40.305,12.649 40.195,12.385 40.195,12.125 C40.195,11.850 40.305,11.598 40.486,11.407 C40.857,11.032 41.541,11.032 41.913,11.407 C42.093,11.598 42.204,11.850 42.204,12.125 C42.204,12.396 42.093,12.649 41.913,12.841 C41.722,13.023 41.460,13.134 41.199,13.134 C40.938,13.134 40.677,13.023 40.486,12.841 ZM44.505,12.841 C44.324,12.649 44.214,12.396 44.214,12.125 C44.214,11.850 44.324,11.598 44.505,11.407 C44.876,11.032 45.560,11.032 45.932,11.407 C46.112,11.598 46.223,11.850 46.223,12.125 C46.223,12.385 46.112,12.649 45.932,12.841 C45.741,13.023 45.490,13.134 45.218,13.134 C44.957,13.134 44.696,13.023 44.505,12.841 ZM48.524,12.841 C48.343,12.649 48.233,12.385 48.233,12.125 C48.233,11.861 48.343,11.598 48.524,11.407 C48.906,11.032 49.579,11.032 49.951,11.407 C50.131,11.598 50.242,11.850 50.242,12.125 C50.242,12.396 50.131,12.649 49.951,12.841 C49.760,13.023 49.498,13.134 49.237,13.134 C48.976,13.134 48.715,13.023 48.524,12.841 ZM52.543,12.841 C52.362,12.649 52.252,12.396 52.252,12.125 C52.252,11.850 52.362,11.598 52.543,11.407 C52.915,11.042 53.588,11.032 53.970,11.407 C54.150,11.598 54.261,11.861 54.261,12.125 C54.261,12.385 54.150,12.649 53.970,12.841 C53.779,13.023 53.518,13.134 53.257,13.134 C52.995,13.134 52.734,13.023 52.543,12.841 ZM57.276,13.134 C57.014,13.134 56.753,13.023 56.562,12.841 C56.381,12.649 56.271,12.385 56.271,12.125 C56.271,11.861 56.381,11.598 56.562,11.407 C56.934,11.032 57.617,11.032 57.989,11.407 C58.170,11.598 58.280,11.861 58.280,12.125 C58.280,12.385 58.170,12.649 57.989,12.841 C57.798,13.023 57.537,13.134 57.276,13.134 ZM35.171,20.210 L57.276,20.210 C57.830,20.210 58.280,20.572 58.280,21.019 C58.280,21.465 57.830,21.827 57.276,21.827 L35.171,21.827 C34.616,21.827 34.166,21.465 34.166,21.019 C34.166,20.572 34.616,20.210 35.171,20.210 ZM35.171,25.265 L57.276,25.265 C57.830,25.265 58.280,25.626 58.280,26.073 C58.280,26.521 57.830,26.882 57.276,26.882 L35.171,26.882 C34.616,26.882 34.166,26.521 34.166,26.073 C34.166,25.626 34.616,25.265 35.171,25.265 ZM35.171,30.319 L45.218,30.319 C45.773,30.319 46.223,30.680 46.223,31.127 C46.223,31.574 45.773,31.935 45.218,31.935 L35.171,31.935 C34.616,31.935 34.166,31.574 34.166,31.127 C34.166,30.680 34.616,30.319 35.171,30.319 ZM49.951,30.612 C50.131,30.803 50.242,31.067 50.242,31.330 C50.242,31.592 50.131,31.855 49.951,32.047 C49.760,32.229 49.498,32.341 49.237,32.341 C48.976,32.341 48.715,32.229 48.524,32.047 C48.343,31.855 48.233,31.601 48.233,31.330 C48.233,31.056 48.343,30.803 48.524,30.612 C48.896,30.238 49.569,30.238 49.951,30.612 ZM53.970,30.612 C54.150,30.803 54.261,31.067 54.261,31.330 C54.261,31.592 54.150,31.855 53.970,32.047 C53.779,32.229 53.518,32.341 53.257,32.341 C52.995,32.341 52.734,32.229 52.543,32.047 C52.362,31.855 52.252,31.592 52.252,31.330 C52.252,31.067 52.362,30.803 52.543,30.612 C52.925,30.238 53.588,30.238 53.970,30.612 ZM57.989,30.612 C58.170,30.803 58.280,31.067 58.280,31.330 C58.280,31.592 58.170,31.855 57.989,32.047 C57.798,32.229 57.537,32.341 57.276,32.341 C57.014,32.341 56.753,32.229 56.562,32.047 C56.381,31.855 56.271,31.592 56.271,31.330 C56.271,31.067 56.381,30.803 56.562,30.612 C56.944,30.238 57.617,30.238 57.989,30.612 Z" class="cls-web web_icon">    
+                                             </path>
+                                          </svg>
+                                          <span class="round lazyloaded"></span>
+                                       </div>
+                                       <h3 class="tertiary_heading">tertiary_heading</h3>
+                                       <div class="box_content">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                          Architecto dolorem ut maiores provident ullam rem exercitationem est doloremque ab, 
+                                          illo facere! Molestias numquam est recusandae consequatur aspernatur dolorum, 
+                                          <button class="get_qoute_btn">
+                                          View More <span><i class="fas fa-arrow-right"></i></span>
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="product_grid_item" data-aos="fade-down-left">
+                                 <div class="product_main_wrapper">
+                                    <div class="service_box">
+                                       <div class="box_img">
+                                          <svg xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="31.5" height="56" viewBox="0 0 31.5 56">
+                                             <path d="M27.125,56.000 L4.375,56.000 C1.963,56.000 -0.000,54.038 -0.000,51.625 L-0.000,4.375 C-0.000,1.963 1.963,-0.001 4.375,-0.001 L27.125,-0.001 C29.537,-0.001 31.500,1.963 31.500,4.375 L31.500,51.625 C31.500,54.038 29.537,56.000 27.125,56.000 ZM29.750,4.375 C29.750,2.927 28.572,1.750 27.125,1.750 L4.375,1.750 C2.927,1.750 1.750,2.927 1.750,4.375 L1.750,51.625 C1.750,53.073 2.927,54.250 4.375,54.250 L27.125,54.250 C28.572,54.250 29.750,53.073 29.750,51.625 L29.750,4.375 ZM27.125,47.250 L4.375,47.250 C3.892,47.250 3.500,46.858 3.500,46.374 L3.500,7.874 C3.500,7.391 3.892,6.999 4.375,6.999 L27.125,6.999 C27.608,6.999 28.000,7.391 28.000,7.874 L28.000,46.374 C28.000,46.858 27.608,47.250 27.125,47.250 ZM26.250,8.750 L5.250,8.750 L5.250,45.500 L26.250,45.500 L26.250,8.750 ZM7.255,25.633 L14.240,18.618 C14.581,18.274 15.135,18.274 15.478,18.615 C15.820,18.956 15.821,19.510 15.480,19.853 L8.495,26.867 C8.324,27.039 8.100,27.125 7.875,27.125 C7.652,27.125 7.429,27.040 7.258,26.870 C6.915,26.529 6.914,25.974 7.255,25.633 ZM15.496,14.621 C15.330,14.779 15.102,14.874 14.875,14.874 C14.647,14.874 14.420,14.779 14.254,14.621 C14.096,14.455 14.000,14.236 14.000,13.999 C14.000,13.772 14.096,13.545 14.254,13.379 C14.577,13.055 15.172,13.055 15.496,13.379 C15.653,13.545 15.750,13.772 15.750,13.999 C15.750,14.236 15.653,14.455 15.496,14.621 ZM16.879,10.754 C17.211,10.429 17.797,10.429 18.121,10.754 C18.278,10.919 18.375,11.147 18.375,11.375 C18.375,11.602 18.278,11.830 18.121,11.996 C17.955,12.154 17.727,12.250 17.500,12.250 C17.272,12.250 17.045,12.154 16.879,11.996 C16.721,11.830 16.625,11.602 16.625,11.375 C16.625,11.147 16.721,10.919 16.879,10.754 ZM16.879,16.004 C17.211,15.680 17.797,15.680 18.121,16.004 C18.278,16.170 18.375,16.397 18.375,16.625 C18.375,16.853 18.278,17.080 18.121,17.245 C17.955,17.403 17.727,17.499 17.500,17.499 C17.272,17.499 17.045,17.403 16.879,17.245 C16.721,17.080 16.625,16.853 16.625,16.625 C16.625,16.397 16.721,16.170 16.879,16.004 ZM19.504,13.379 C19.827,13.055 20.422,13.055 20.746,13.387 C20.903,13.545 21.000,13.772 21.000,13.999 C21.000,14.227 20.903,14.455 20.746,14.621 C20.580,14.779 20.352,14.874 20.125,14.874 C19.897,14.874 19.670,14.779 19.504,14.621 C19.346,14.455 19.250,14.227 19.250,13.999 C19.250,13.772 19.346,13.545 19.504,13.379 ZM22.129,10.754 C22.452,10.429 23.047,10.429 23.371,10.754 C23.528,10.919 23.625,11.147 23.625,11.375 C23.625,11.602 23.528,11.830 23.371,11.996 C23.205,12.154 22.977,12.250 22.750,12.250 C22.522,12.250 22.295,12.154 22.129,11.996 C21.971,11.830 21.875,11.602 21.875,11.375 C21.875,11.147 21.971,10.919 22.129,10.754 ZM12.871,11.996 C12.705,12.154 12.477,12.250 12.250,12.250 C12.022,12.250 11.795,12.154 11.629,11.996 C11.471,11.830 11.375,11.602 11.375,11.375 C11.375,11.138 11.471,10.919 11.629,10.754 C11.952,10.429 12.538,10.429 12.871,10.754 C13.028,10.919 13.125,11.147 13.125,11.375 C13.125,11.602 13.028,11.830 12.871,11.996 ZM7.256,20.382 L11.631,16.007 C11.973,15.664 12.527,15.664 12.869,16.007 C13.210,16.348 13.210,16.902 12.869,17.244 L8.494,21.618 C8.323,21.789 8.099,21.875 7.875,21.875 C7.651,21.875 7.427,21.789 7.256,21.618 C6.914,21.276 6.914,20.722 7.256,20.382 ZM10.244,14.618 L8.494,16.369 C8.323,16.539 8.099,16.625 7.875,16.625 C7.651,16.625 7.427,16.539 7.256,16.369 C6.914,16.027 6.914,15.473 7.256,15.131 L9.006,13.382 C9.348,13.040 9.902,13.040 10.244,13.382 C10.585,13.722 10.585,14.276 10.244,14.618 ZM19.250,5.250 L15.750,5.250 C15.267,5.250 14.875,4.858 14.875,4.375 C14.875,3.892 15.267,3.499 15.750,3.499 L19.250,3.499 C19.733,3.499 20.125,3.892 20.125,4.375 C20.125,4.858 19.733,5.250 19.250,5.250 ZM12.871,4.996 C12.705,5.153 12.477,5.250 12.250,5.250 C12.022,5.250 11.795,5.153 11.629,4.996 C11.471,4.830 11.375,4.602 11.375,4.375 C11.375,4.138 11.471,3.919 11.629,3.754 C11.952,3.429 12.538,3.429 12.871,3.754 C13.028,3.919 13.125,4.147 13.125,4.375 C13.125,4.602 13.028,4.830 12.871,4.996 ZM15.750,48.124 C17.198,48.124 18.375,49.302 18.375,50.749 C18.375,52.197 17.198,53.374 15.750,53.374 C14.302,53.374 13.125,52.197 13.125,50.749 C13.125,49.302 14.302,48.124 15.750,48.124 ZM15.750,51.625 C16.232,51.625 16.625,51.232 16.625,50.749 C16.625,50.267 16.232,49.875 15.750,49.875 C15.268,49.875 14.875,50.267 14.875,50.749 C14.875,51.232 15.268,51.625 15.750,51.625 Z" class="cls-mobile web_icon"></path>
+                                          </svg>
+                                          <span class="round lazyloaded"></span>
+                                       </div>
+                                       <h3 class="tertiary_heading">tertiary_heading</h3>
+                                       <div class="box_content">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                          Architecto dolorem ut maiores provident ullam rem exercitationem est doloremque ab, 
+                                          illo facere! Molestias numquam est recusandae consequatur aspernatur dolorum, 
+                                          <button class="get_qoute_btn">
+                                          View More <span><i class="fas fa-arrow-right"></i></span>
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="product_grid_item" data-aos="fade-up-right">
+                                 <div class="product_main_wrapper">
+                                    <div class="service_box">
+                                       <div class="box_img">
+                                          <svg xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="64.31" height="54.59" viewBox="0 0 64.31 54.59">
+                                             <path d="M61.295,46.491 L38.467,46.491 L39.974,52.557 L43.209,52.557 C43.764,52.557 44.214,53.010 44.214,53.567 C44.214,54.127 43.764,54.579 43.209,54.579 L21.104,54.579 C20.549,54.579 20.099,54.127 20.099,53.567 C20.099,53.010 20.549,52.557 21.104,52.557 L24.338,52.557 L25.846,46.491 L3.018,46.491 C1.356,46.491 0.004,45.132 0.004,43.460 L0.004,3.026 C0.004,1.353 1.356,-0.007 3.018,-0.007 L61.295,-0.007 C62.957,-0.007 64.309,1.353 64.309,3.026 L64.309,43.460 C64.309,45.132 62.957,46.491 61.295,46.491 ZM37.903,52.557 L36.396,46.491 L27.917,46.491 L26.410,52.557 L37.903,52.557 ZM62.299,3.026 C62.299,2.468 61.849,2.016 61.295,2.016 L3.018,2.016 C2.464,2.016 2.013,2.468 2.013,3.026 L2.013,36.383 L62.299,36.383 L62.299,3.026 ZM62.299,38.406 L2.013,38.406 L2.013,43.460 C2.013,44.017 2.464,44.471 3.018,44.471 L61.295,44.471 C61.849,44.471 62.299,44.017 62.299,43.460 L62.299,38.406 ZM33.161,42.449 L31.152,42.449 C30.597,42.449 30.147,41.997 30.147,41.438 C30.147,40.880 30.597,40.427 31.152,40.427 L33.161,40.427 C33.716,40.427 34.166,40.880 34.166,41.438 C34.166,41.997 33.716,42.449 33.161,42.449 ZM7.037,6.059 L57.276,6.059 C57.830,6.059 58.280,6.420 58.280,6.868 C58.280,7.314 57.830,7.677 57.276,7.677 L7.037,7.677 C6.482,7.677 6.032,7.314 6.032,6.868 C6.032,6.420 6.482,6.059 7.037,6.059 ZM7.037,11.113 L37.180,11.113 C37.735,11.113 38.185,11.474 38.185,11.922 C38.185,12.369 37.735,12.730 37.180,12.730 L7.037,12.730 C6.482,12.730 6.032,12.369 6.032,11.922 C6.032,11.474 6.482,11.113 7.037,11.113 ZM6.836,24.254 C7.280,24.254 7.640,24.706 7.640,25.265 L7.640,31.330 C7.640,31.889 7.280,32.341 6.836,32.341 C6.392,32.341 6.032,31.889 6.032,31.330 L6.032,25.265 C6.032,24.706 6.392,24.254 6.836,24.254 ZM11.860,22.233 C12.304,22.233 12.664,22.684 12.664,23.243 L12.664,31.330 C12.664,31.889 12.304,32.341 11.860,32.341 C11.416,32.341 11.056,31.889 11.056,31.330 L11.056,23.243 C11.056,22.684 11.416,22.233 11.860,22.233 ZM16.884,20.210 C17.328,20.210 17.688,20.662 17.688,21.222 L17.688,31.330 C17.688,31.889 17.328,32.341 16.884,32.341 C16.440,32.341 16.080,31.889 16.080,31.330 L16.080,21.222 C16.080,20.662 16.440,20.210 16.884,20.210 ZM21.908,18.189 C22.352,18.189 22.712,18.641 22.712,19.199 L22.712,31.330 C22.712,31.889 22.352,32.341 21.908,32.341 C21.464,32.341 21.104,31.889 21.104,31.330 L21.104,19.199 C21.104,18.641 21.464,18.189 21.908,18.189 ZM40.486,12.841 C40.305,12.649 40.195,12.385 40.195,12.125 C40.195,11.850 40.305,11.598 40.486,11.407 C40.857,11.032 41.541,11.032 41.913,11.407 C42.093,11.598 42.204,11.850 42.204,12.125 C42.204,12.396 42.093,12.649 41.913,12.841 C41.722,13.023 41.460,13.134 41.199,13.134 C40.938,13.134 40.677,13.023 40.486,12.841 ZM44.505,12.841 C44.324,12.649 44.214,12.396 44.214,12.125 C44.214,11.850 44.324,11.598 44.505,11.407 C44.876,11.032 45.560,11.032 45.932,11.407 C46.112,11.598 46.223,11.850 46.223,12.125 C46.223,12.385 46.112,12.649 45.932,12.841 C45.741,13.023 45.490,13.134 45.218,13.134 C44.957,13.134 44.696,13.023 44.505,12.841 ZM48.524,12.841 C48.343,12.649 48.233,12.385 48.233,12.125 C48.233,11.861 48.343,11.598 48.524,11.407 C48.906,11.032 49.579,11.032 49.951,11.407 C50.131,11.598 50.242,11.850 50.242,12.125 C50.242,12.396 50.131,12.649 49.951,12.841 C49.760,13.023 49.498,13.134 49.237,13.134 C48.976,13.134 48.715,13.023 48.524,12.841 ZM52.543,12.841 C52.362,12.649 52.252,12.396 52.252,12.125 C52.252,11.850 52.362,11.598 52.543,11.407 C52.915,11.042 53.588,11.032 53.970,11.407 C54.150,11.598 54.261,11.861 54.261,12.125 C54.261,12.385 54.150,12.649 53.970,12.841 C53.779,13.023 53.518,13.134 53.257,13.134 C52.995,13.134 52.734,13.023 52.543,12.841 ZM57.276,13.134 C57.014,13.134 56.753,13.023 56.562,12.841 C56.381,12.649 56.271,12.385 56.271,12.125 C56.271,11.861 56.381,11.598 56.562,11.407 C56.934,11.032 57.617,11.032 57.989,11.407 C58.170,11.598 58.280,11.861 58.280,12.125 C58.280,12.385 58.170,12.649 57.989,12.841 C57.798,13.023 57.537,13.134 57.276,13.134 ZM35.171,20.210 L57.276,20.210 C57.830,20.210 58.280,20.572 58.280,21.019 C58.280,21.465 57.830,21.827 57.276,21.827 L35.171,21.827 C34.616,21.827 34.166,21.465 34.166,21.019 C34.166,20.572 34.616,20.210 35.171,20.210 ZM35.171,25.265 L57.276,25.265 C57.830,25.265 58.280,25.626 58.280,26.073 C58.280,26.521 57.830,26.882 57.276,26.882 L35.171,26.882 C34.616,26.882 34.166,26.521 34.166,26.073 C34.166,25.626 34.616,25.265 35.171,25.265 ZM35.171,30.319 L45.218,30.319 C45.773,30.319 46.223,30.680 46.223,31.127 C46.223,31.574 45.773,31.935 45.218,31.935 L35.171,31.935 C34.616,31.935 34.166,31.574 34.166,31.127 C34.166,30.680 34.616,30.319 35.171,30.319 ZM49.951,30.612 C50.131,30.803 50.242,31.067 50.242,31.330 C50.242,31.592 50.131,31.855 49.951,32.047 C49.760,32.229 49.498,32.341 49.237,32.341 C48.976,32.341 48.715,32.229 48.524,32.047 C48.343,31.855 48.233,31.601 48.233,31.330 C48.233,31.056 48.343,30.803 48.524,30.612 C48.896,30.238 49.569,30.238 49.951,30.612 ZM53.970,30.612 C54.150,30.803 54.261,31.067 54.261,31.330 C54.261,31.592 54.150,31.855 53.970,32.047 C53.779,32.229 53.518,32.341 53.257,32.341 C52.995,32.341 52.734,32.229 52.543,32.047 C52.362,31.855 52.252,31.592 52.252,31.330 C52.252,31.067 52.362,30.803 52.543,30.612 C52.925,30.238 53.588,30.238 53.970,30.612 ZM57.989,30.612 C58.170,30.803 58.280,31.067 58.280,31.330 C58.280,31.592 58.170,31.855 57.989,32.047 C57.798,32.229 57.537,32.341 57.276,32.341 C57.014,32.341 56.753,32.229 56.562,32.047 C56.381,31.855 56.271,31.592 56.271,31.330 C56.271,31.067 56.381,30.803 56.562,30.612 C56.944,30.238 57.617,30.238 57.989,30.612 Z" class="cls-web web_icon">    
+                                             </path>
+                                          </svg>
+                                          <span class="round lazyloaded"></span>
+                                       </div>
+                                       <h3 class="tertiary_heading">tertiary_heading</h3>
+                                       <div class="box_content">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                          Architecto dolorem ut maiores provident ullam rem exercitationem est doloremque ab, 
+                                          illo facere! Molestias numquam est recusandae consequatur aspernatur dolorum, 
+                                          <button class="get_qoute_btn">
+                                          View More <span><i class="fas fa-arrow-right"></i></span>
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="product_grid_item">
+                                 <div class="product_main_wrapper">
+                                    <div class="service_box">
+                                       <div class="box_img">
+                                          <svg xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="64.31" height="54.59" viewBox="0 0 64.31 54.59">
+                                             <path d="M61.295,46.491 L38.467,46.491 L39.974,52.557 L43.209,52.557 C43.764,52.557 44.214,53.010 44.214,53.567 C44.214,54.127 43.764,54.579 43.209,54.579 L21.104,54.579 C20.549,54.579 20.099,54.127 20.099,53.567 C20.099,53.010 20.549,52.557 21.104,52.557 L24.338,52.557 L25.846,46.491 L3.018,46.491 C1.356,46.491 0.004,45.132 0.004,43.460 L0.004,3.026 C0.004,1.353 1.356,-0.007 3.018,-0.007 L61.295,-0.007 C62.957,-0.007 64.309,1.353 64.309,3.026 L64.309,43.460 C64.309,45.132 62.957,46.491 61.295,46.491 ZM37.903,52.557 L36.396,46.491 L27.917,46.491 L26.410,52.557 L37.903,52.557 ZM62.299,3.026 C62.299,2.468 61.849,2.016 61.295,2.016 L3.018,2.016 C2.464,2.016 2.013,2.468 2.013,3.026 L2.013,36.383 L62.299,36.383 L62.299,3.026 ZM62.299,38.406 L2.013,38.406 L2.013,43.460 C2.013,44.017 2.464,44.471 3.018,44.471 L61.295,44.471 C61.849,44.471 62.299,44.017 62.299,43.460 L62.299,38.406 ZM33.161,42.449 L31.152,42.449 C30.597,42.449 30.147,41.997 30.147,41.438 C30.147,40.880 30.597,40.427 31.152,40.427 L33.161,40.427 C33.716,40.427 34.166,40.880 34.166,41.438 C34.166,41.997 33.716,42.449 33.161,42.449 ZM7.037,6.059 L57.276,6.059 C57.830,6.059 58.280,6.420 58.280,6.868 C58.280,7.314 57.830,7.677 57.276,7.677 L7.037,7.677 C6.482,7.677 6.032,7.314 6.032,6.868 C6.032,6.420 6.482,6.059 7.037,6.059 ZM7.037,11.113 L37.180,11.113 C37.735,11.113 38.185,11.474 38.185,11.922 C38.185,12.369 37.735,12.730 37.180,12.730 L7.037,12.730 C6.482,12.730 6.032,12.369 6.032,11.922 C6.032,11.474 6.482,11.113 7.037,11.113 ZM6.836,24.254 C7.280,24.254 7.640,24.706 7.640,25.265 L7.640,31.330 C7.640,31.889 7.280,32.341 6.836,32.341 C6.392,32.341 6.032,31.889 6.032,31.330 L6.032,25.265 C6.032,24.706 6.392,24.254 6.836,24.254 ZM11.860,22.233 C12.304,22.233 12.664,22.684 12.664,23.243 L12.664,31.330 C12.664,31.889 12.304,32.341 11.860,32.341 C11.416,32.341 11.056,31.889 11.056,31.330 L11.056,23.243 C11.056,22.684 11.416,22.233 11.860,22.233 ZM16.884,20.210 C17.328,20.210 17.688,20.662 17.688,21.222 L17.688,31.330 C17.688,31.889 17.328,32.341 16.884,32.341 C16.440,32.341 16.080,31.889 16.080,31.330 L16.080,21.222 C16.080,20.662 16.440,20.210 16.884,20.210 ZM21.908,18.189 C22.352,18.189 22.712,18.641 22.712,19.199 L22.712,31.330 C22.712,31.889 22.352,32.341 21.908,32.341 C21.464,32.341 21.104,31.889 21.104,31.330 L21.104,19.199 C21.104,18.641 21.464,18.189 21.908,18.189 ZM40.486,12.841 C40.305,12.649 40.195,12.385 40.195,12.125 C40.195,11.850 40.305,11.598 40.486,11.407 C40.857,11.032 41.541,11.032 41.913,11.407 C42.093,11.598 42.204,11.850 42.204,12.125 C42.204,12.396 42.093,12.649 41.913,12.841 C41.722,13.023 41.460,13.134 41.199,13.134 C40.938,13.134 40.677,13.023 40.486,12.841 ZM44.505,12.841 C44.324,12.649 44.214,12.396 44.214,12.125 C44.214,11.850 44.324,11.598 44.505,11.407 C44.876,11.032 45.560,11.032 45.932,11.407 C46.112,11.598 46.223,11.850 46.223,12.125 C46.223,12.385 46.112,12.649 45.932,12.841 C45.741,13.023 45.490,13.134 45.218,13.134 C44.957,13.134 44.696,13.023 44.505,12.841 ZM48.524,12.841 C48.343,12.649 48.233,12.385 48.233,12.125 C48.233,11.861 48.343,11.598 48.524,11.407 C48.906,11.032 49.579,11.032 49.951,11.407 C50.131,11.598 50.242,11.850 50.242,12.125 C50.242,12.396 50.131,12.649 49.951,12.841 C49.760,13.023 49.498,13.134 49.237,13.134 C48.976,13.134 48.715,13.023 48.524,12.841 ZM52.543,12.841 C52.362,12.649 52.252,12.396 52.252,12.125 C52.252,11.850 52.362,11.598 52.543,11.407 C52.915,11.042 53.588,11.032 53.970,11.407 C54.150,11.598 54.261,11.861 54.261,12.125 C54.261,12.385 54.150,12.649 53.970,12.841 C53.779,13.023 53.518,13.134 53.257,13.134 C52.995,13.134 52.734,13.023 52.543,12.841 ZM57.276,13.134 C57.014,13.134 56.753,13.023 56.562,12.841 C56.381,12.649 56.271,12.385 56.271,12.125 C56.271,11.861 56.381,11.598 56.562,11.407 C56.934,11.032 57.617,11.032 57.989,11.407 C58.170,11.598 58.280,11.861 58.280,12.125 C58.280,12.385 58.170,12.649 57.989,12.841 C57.798,13.023 57.537,13.134 57.276,13.134 ZM35.171,20.210 L57.276,20.210 C57.830,20.210 58.280,20.572 58.280,21.019 C58.280,21.465 57.830,21.827 57.276,21.827 L35.171,21.827 C34.616,21.827 34.166,21.465 34.166,21.019 C34.166,20.572 34.616,20.210 35.171,20.210 ZM35.171,25.265 L57.276,25.265 C57.830,25.265 58.280,25.626 58.280,26.073 C58.280,26.521 57.830,26.882 57.276,26.882 L35.171,26.882 C34.616,26.882 34.166,26.521 34.166,26.073 C34.166,25.626 34.616,25.265 35.171,25.265 ZM35.171,30.319 L45.218,30.319 C45.773,30.319 46.223,30.680 46.223,31.127 C46.223,31.574 45.773,31.935 45.218,31.935 L35.171,31.935 C34.616,31.935 34.166,31.574 34.166,31.127 C34.166,30.680 34.616,30.319 35.171,30.319 ZM49.951,30.612 C50.131,30.803 50.242,31.067 50.242,31.330 C50.242,31.592 50.131,31.855 49.951,32.047 C49.760,32.229 49.498,32.341 49.237,32.341 C48.976,32.341 48.715,32.229 48.524,32.047 C48.343,31.855 48.233,31.601 48.233,31.330 C48.233,31.056 48.343,30.803 48.524,30.612 C48.896,30.238 49.569,30.238 49.951,30.612 ZM53.970,30.612 C54.150,30.803 54.261,31.067 54.261,31.330 C54.261,31.592 54.150,31.855 53.970,32.047 C53.779,32.229 53.518,32.341 53.257,32.341 C52.995,32.341 52.734,32.229 52.543,32.047 C52.362,31.855 52.252,31.592 52.252,31.330 C52.252,31.067 52.362,30.803 52.543,30.612 C52.925,30.238 53.588,30.238 53.970,30.612 ZM57.989,30.612 C58.170,30.803 58.280,31.067 58.280,31.330 C58.280,31.592 58.170,31.855 57.989,32.047 C57.798,32.229 57.537,32.341 57.276,32.341 C57.014,32.341 56.753,32.229 56.562,32.047 C56.381,31.855 56.271,31.592 56.271,31.330 C56.271,31.067 56.381,30.803 56.562,30.612 C56.944,30.238 57.617,30.238 57.989,30.612 Z" class="cls-web web_icon">    
+                                             </path>
+                                          </svg>
+                                          <span class="round lazyloaded"></span>
+                                       </div>
+                                       <h3 class="tertiary_heading">tertiary_heading</h3>
+                                       <div class="box_content">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                          Architecto dolorem ut maiores provident ullam rem exercitationem est doloremque ab, 
+                                          illo facere! Molestias numquam est recusandae consequatur aspernatur dolorum, 
+                                          <button class="get_qoute_btn">
+                                          View More <span><i class="fas fa-arrow-right"></i></span>
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="product_grid_item" data-aos="fade-down-left">
+                                 <div class="product_main_wrapper">
+                                    <div class="service_box">
+                                       <div class="box_img">
+                                          <svg xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="64.31" height="54.59" viewBox="0 0 64.31 54.59">
+                                             <path d="M61.295,46.491 L38.467,46.491 L39.974,52.557 L43.209,52.557 C43.764,52.557 44.214,53.010 44.214,53.567 C44.214,54.127 43.764,54.579 43.209,54.579 L21.104,54.579 C20.549,54.579 20.099,54.127 20.099,53.567 C20.099,53.010 20.549,52.557 21.104,52.557 L24.338,52.557 L25.846,46.491 L3.018,46.491 C1.356,46.491 0.004,45.132 0.004,43.460 L0.004,3.026 C0.004,1.353 1.356,-0.007 3.018,-0.007 L61.295,-0.007 C62.957,-0.007 64.309,1.353 64.309,3.026 L64.309,43.460 C64.309,45.132 62.957,46.491 61.295,46.491 ZM37.903,52.557 L36.396,46.491 L27.917,46.491 L26.410,52.557 L37.903,52.557 ZM62.299,3.026 C62.299,2.468 61.849,2.016 61.295,2.016 L3.018,2.016 C2.464,2.016 2.013,2.468 2.013,3.026 L2.013,36.383 L62.299,36.383 L62.299,3.026 ZM62.299,38.406 L2.013,38.406 L2.013,43.460 C2.013,44.017 2.464,44.471 3.018,44.471 L61.295,44.471 C61.849,44.471 62.299,44.017 62.299,43.460 L62.299,38.406 ZM33.161,42.449 L31.152,42.449 C30.597,42.449 30.147,41.997 30.147,41.438 C30.147,40.880 30.597,40.427 31.152,40.427 L33.161,40.427 C33.716,40.427 34.166,40.880 34.166,41.438 C34.166,41.997 33.716,42.449 33.161,42.449 ZM7.037,6.059 L57.276,6.059 C57.830,6.059 58.280,6.420 58.280,6.868 C58.280,7.314 57.830,7.677 57.276,7.677 L7.037,7.677 C6.482,7.677 6.032,7.314 6.032,6.868 C6.032,6.420 6.482,6.059 7.037,6.059 ZM7.037,11.113 L37.180,11.113 C37.735,11.113 38.185,11.474 38.185,11.922 C38.185,12.369 37.735,12.730 37.180,12.730 L7.037,12.730 C6.482,12.730 6.032,12.369 6.032,11.922 C6.032,11.474 6.482,11.113 7.037,11.113 ZM6.836,24.254 C7.280,24.254 7.640,24.706 7.640,25.265 L7.640,31.330 C7.640,31.889 7.280,32.341 6.836,32.341 C6.392,32.341 6.032,31.889 6.032,31.330 L6.032,25.265 C6.032,24.706 6.392,24.254 6.836,24.254 ZM11.860,22.233 C12.304,22.233 12.664,22.684 12.664,23.243 L12.664,31.330 C12.664,31.889 12.304,32.341 11.860,32.341 C11.416,32.341 11.056,31.889 11.056,31.330 L11.056,23.243 C11.056,22.684 11.416,22.233 11.860,22.233 ZM16.884,20.210 C17.328,20.210 17.688,20.662 17.688,21.222 L17.688,31.330 C17.688,31.889 17.328,32.341 16.884,32.341 C16.440,32.341 16.080,31.889 16.080,31.330 L16.080,21.222 C16.080,20.662 16.440,20.210 16.884,20.210 ZM21.908,18.189 C22.352,18.189 22.712,18.641 22.712,19.199 L22.712,31.330 C22.712,31.889 22.352,32.341 21.908,32.341 C21.464,32.341 21.104,31.889 21.104,31.330 L21.104,19.199 C21.104,18.641 21.464,18.189 21.908,18.189 ZM40.486,12.841 C40.305,12.649 40.195,12.385 40.195,12.125 C40.195,11.850 40.305,11.598 40.486,11.407 C40.857,11.032 41.541,11.032 41.913,11.407 C42.093,11.598 42.204,11.850 42.204,12.125 C42.204,12.396 42.093,12.649 41.913,12.841 C41.722,13.023 41.460,13.134 41.199,13.134 C40.938,13.134 40.677,13.023 40.486,12.841 ZM44.505,12.841 C44.324,12.649 44.214,12.396 44.214,12.125 C44.214,11.850 44.324,11.598 44.505,11.407 C44.876,11.032 45.560,11.032 45.932,11.407 C46.112,11.598 46.223,11.850 46.223,12.125 C46.223,12.385 46.112,12.649 45.932,12.841 C45.741,13.023 45.490,13.134 45.218,13.134 C44.957,13.134 44.696,13.023 44.505,12.841 ZM48.524,12.841 C48.343,12.649 48.233,12.385 48.233,12.125 C48.233,11.861 48.343,11.598 48.524,11.407 C48.906,11.032 49.579,11.032 49.951,11.407 C50.131,11.598 50.242,11.850 50.242,12.125 C50.242,12.396 50.131,12.649 49.951,12.841 C49.760,13.023 49.498,13.134 49.237,13.134 C48.976,13.134 48.715,13.023 48.524,12.841 ZM52.543,12.841 C52.362,12.649 52.252,12.396 52.252,12.125 C52.252,11.850 52.362,11.598 52.543,11.407 C52.915,11.042 53.588,11.032 53.970,11.407 C54.150,11.598 54.261,11.861 54.261,12.125 C54.261,12.385 54.150,12.649 53.970,12.841 C53.779,13.023 53.518,13.134 53.257,13.134 C52.995,13.134 52.734,13.023 52.543,12.841 ZM57.276,13.134 C57.014,13.134 56.753,13.023 56.562,12.841 C56.381,12.649 56.271,12.385 56.271,12.125 C56.271,11.861 56.381,11.598 56.562,11.407 C56.934,11.032 57.617,11.032 57.989,11.407 C58.170,11.598 58.280,11.861 58.280,12.125 C58.280,12.385 58.170,12.649 57.989,12.841 C57.798,13.023 57.537,13.134 57.276,13.134 ZM35.171,20.210 L57.276,20.210 C57.830,20.210 58.280,20.572 58.280,21.019 C58.280,21.465 57.830,21.827 57.276,21.827 L35.171,21.827 C34.616,21.827 34.166,21.465 34.166,21.019 C34.166,20.572 34.616,20.210 35.171,20.210 ZM35.171,25.265 L57.276,25.265 C57.830,25.265 58.280,25.626 58.280,26.073 C58.280,26.521 57.830,26.882 57.276,26.882 L35.171,26.882 C34.616,26.882 34.166,26.521 34.166,26.073 C34.166,25.626 34.616,25.265 35.171,25.265 ZM35.171,30.319 L45.218,30.319 C45.773,30.319 46.223,30.680 46.223,31.127 C46.223,31.574 45.773,31.935 45.218,31.935 L35.171,31.935 C34.616,31.935 34.166,31.574 34.166,31.127 C34.166,30.680 34.616,30.319 35.171,30.319 ZM49.951,30.612 C50.131,30.803 50.242,31.067 50.242,31.330 C50.242,31.592 50.131,31.855 49.951,32.047 C49.760,32.229 49.498,32.341 49.237,32.341 C48.976,32.341 48.715,32.229 48.524,32.047 C48.343,31.855 48.233,31.601 48.233,31.330 C48.233,31.056 48.343,30.803 48.524,30.612 C48.896,30.238 49.569,30.238 49.951,30.612 ZM53.970,30.612 C54.150,30.803 54.261,31.067 54.261,31.330 C54.261,31.592 54.150,31.855 53.970,32.047 C53.779,32.229 53.518,32.341 53.257,32.341 C52.995,32.341 52.734,32.229 52.543,32.047 C52.362,31.855 52.252,31.592 52.252,31.330 C52.252,31.067 52.362,30.803 52.543,30.612 C52.925,30.238 53.588,30.238 53.970,30.612 ZM57.989,30.612 C58.170,30.803 58.280,31.067 58.280,31.330 C58.280,31.592 58.170,31.855 57.989,32.047 C57.798,32.229 57.537,32.341 57.276,32.341 C57.014,32.341 56.753,32.229 56.562,32.047 C56.381,31.855 56.271,31.592 56.271,31.330 C56.271,31.067 56.381,30.803 56.562,30.612 C56.944,30.238 57.617,30.238 57.989,30.612 Z" class="cls-web web_icon">    
+                                             </path>
+                                          </svg>
+                                          <span class="round lazyloaded"></span>
+                                       </div>
+                                       <h3 class="tertiary_heading">tertiary_heading</h3>
+                                       <div class="box_content">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                          Architecto dolorem ut maiores provident ullam rem exercitationem est doloremque ab, 
+                                          illo facere! Molestias numquam est recusandae consequatur aspernatur dolorum, 
+                                          <button class="get_qoute_btn">
+                                          View More <span><i class="fas fa-arrow-right"></i></span>
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </div>
+            </div>
+         </section>
+         <!---Blog Section -->
+         <section class="blog_section">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="blog_main_container">
+                        <div class="contact_header_box">
+                           <h3>Our Blog</h3>
+                           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                           </p>
+                        </div>
+                        <div class="blog_body_wrapper">
+                           <div class="single_blog_wrap" data-aos="flip-left">
+                              <div class="blog_image">
+                                 <a href="#" class="img_hover">
+                                 <img src="./assets/images/one.jpg" alt="one" class="firstblog_img">
+                                 </a>
+                              </div>
+                              <div class="blog_content">
+                                 <h2>Brand yourself for the career you want, not the job you have </h2>
+                                 <h5 class="fifth_heading">
+                                    <span class="date_box">
+                                    <i class="fas fa-calendar"></i>
+                                    &nbsp;JAN 19, 2017
+                                    </span>
+                                    <span class="views_box">
+                                    <i class="fas fa-eye"></i>
+                                    &nbsp;467 VIEWS
+                                    </span>
+                                 </h5>
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Pariatur excepturi modi vitae cumque consequatur. 
+                                    Ipsam, assumenda nemo!
+                                 </p>
+                                 <a href="#" class="learn_more_bn">Learn More <span><i class="fa  fa-arrow-right" aria-hidden="true"></i></span></a>
+                              </div>
+                           </div>
+                           <div class="single_blog_wrap">
+                              <div class="blog_image">
+                                 <a href="#" class="img_hover">
+                                 <img src="./assets/images/one.jpg" alt="one" class="firstblog_img">
+                                 </a>
+                              </div>
+                              <div class="blog_content">
+                                 <h2>Brand yourself for the career you want, not the job you have </h2>
+                                 <h5 class="fifth_heading">
+                                    <span class="date_box">
+                                    <i class="fas fa-calendar"></i>
+                                    &nbsp;JAN 19, 2017
+                                    </span>
+                                    <span class="views_box">
+                                    <i class="fas fa-eye"></i>
+                                    &nbsp;467 VIEWS
+                                    </span>
+                                 </h5>
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Pariatur excepturi modi vitae cumque consequatur. 
+                                    Ipsam, assumenda nemo!
+                                 </p>
+                                 <a href="#" class="learn_more_bn">Learn More <span><i class="fa  fa-arrow-right" aria-hidden="true"></i></span></a>
+                              </div>
+                           </div>
+                           <div class="single_blog_wrap" data-aos="flip-right">
+                              <div class="blog_image">
+                                 <a href="#" class="img_hover">
+                                 <img src="./assets/images/one.jpg" alt="one" class="firstblog_img">
+                                 </a>
+                              </div>
+                              <div class="blog_content">
+                                 <h2>Brand yourself for the career you want, not the job you have </h2>
+                                 <h5 class="fifth_heading">
+                                    <span class="date_box">
+                                    <i class="fas fa-calendar"></i>
+                                    &nbsp;JAN 19, 2017
+                                    </span>
+                                    <span class="views_box">
+                                    <i class="fas fa-eye"></i>
+                                    &nbsp;467 VIEWS
+                                    </span>
+                                 </h5>
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Pariatur excepturi modi vitae cumque consequatur. 
+                                    Ipsam, assumenda nemo!
+                                 </p>
+                                 <a href="#" class="learn_more_bn">Learn More <span><i class="fa  fa-arrow-right" aria-hidden="true"></i></span></a>
+                              </div>
+                           </div>
+                        </div>
+                        <button class="view-more_btn">View More <span><i class="fa  fa-arrow-right" aria-hidden="true"></i></span></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--- research and development -->
+         <section class="mission_and_vision_container">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="vm_wrap">
+                        <div class="vm_row">
+                           <div class="vm_col side_vm">
+                              <div class="text_inner_column">
+                                 <div class="wpb_wrapper">
+                                    <div class="wpb_heading">
+                                       <h2 class="mission_heading">
+                                          Our Mission
+                                       </h2>
+                                       <h3>The principles that guide our business</h3>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="vm_col col-1">
+                              <div class="col_one_inner_box">
+                                 <div class="wpb_wrapper">
+                                    <div class="top_article">
+                                       <div class="top_article_icon">
+                                          <span><i class="fas fa-eye"></i></span>
+                                       </div>
+                                       <div class="top_article_content">
+                                          <h5>Vision</h5>
+                                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                             Explicabo eum reprehenderit obcaecati, 
+                                             quidem adipisci nisi necessitatibus minus.
+                                          </p>
+                                          <a href="#" class="read_more_btn">Read More</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="vm_col  col-2">
+                              <div class="col_one_inner_box">
+                                 <div class="wpb_wrapper">
+                                    <div class="top_article">
+                                       <div class="top_article_icon">
+                                          <span><i class="fas fa-bullseye"></i></span>
+                                       </div>
+                                       <div class="top_article_content">
+                                          <h5>Mission</h5>
+                                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                             Explicabo eum reprehenderit obcaecati, 
+                                             quidem adipisci nisi necessitatibus minus.
+                                          </p>
+                                          <a href="#" class="read_more_btn">Read More</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="vm_col  col-3">
+                              <div class="col_one_inner_box">
+                                 <div class="wpb_wrapper">
+                                    <div class="top_article">
+                                       <div class="top_article_icon">
+                                          <span><i class="fab fa-leanpub"></i></span>
+                                       </div>
+                                       <div class="top_article_content">
+                                          <h5>Philosophy</h5>
+                                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                             Explicabo eum reprehenderit obcaecati, 
+                                             quidem adipisci nisi necessitatibus minus.
+                                          </p>
+                                          <a href="#" class="read_more_btn">Read More</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!----Our client section --->
+         <section class="client_container">
+            <div class="user_main_wrapper">
+               <div class="client_head">
+                  <h2 class="secondary_header">Our Clients</h2>
+               </div>
+               <div class="clients_wrapper">
+                  <div class="client_txt">
+                     <div class="client_txt_main">
+                        <h2 class="secondary_client_header">Happy Clients</h2>
+                        <p class="client_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                           error distinctio! Ab autem, 
+                           suscipit velit cupiditate deserunt magni quisquam vitae architecto odit debitis nostrum illum, 
+                           maiores ipsa at animi sequi modi voluptas deleniti delectus commodi atque officiis dolore? Sapiente doloremque fugit aliquam quaerat quos id neque enim ipsa ratione ipsum numquam, 
+                           quibusdam officia perferendis temporibus repellat quidem nostrum corporis. Nam?
+                        </p>
+                     </div>
+                  </div>
+                  <div class="client_box">
+                     <div class="client_image_grid">
+                        <div class="grid-weare">
+                           <div class="grid_item">
+                              <img src="./assets/images/c1.jpg" alt="item" class="item_img">
+                           </div>
+                           <div class="grid_item">
+                              <img src="./assets/images/c2.webp" alt="item_img" class="item_img">
+                           </div>
+                           <div class="grid_item">
+                              <img src="./assets/images/c3.jpg" alt="item_img" class="item_img">
+                           </div>
+                           <div class="grid_item">
+                              <img src="./assets/images/c4.jpg" alt="item_img" class="item_img">
+                           </div>
+                           <div class="grid_item">
+                              <img src="./assets/images/c5.jpg" alt="item_img" class="item_img">                          
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!---contact section--->
+         <section class="partner_container">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="partner_wrapper">
+                        <h2 class="partner_header">Our Partner</h2>
+                     </div>
+                     <div class="partner_wrap">
+                        <div class="col col-1">
+                           <img src="./assets/images/brandone.jpg" alt="brand" class="brandimg">
+                        </div>
+                        <div class="col col-2">
+                           <img src="./assets/images/brandone.jpg" alt="brand" class="brandimg">
+                        </div>
+                        <div class="col col-3">
+                           <img src="./assets/images/brandone.jpg" alt="brand" class="brandimg">
+                        </div>
+                        <div class="col col-4">
+                           <img src="./assets/images/brandone.jpg" alt="brand" class="brandimg">
+                        </div>
+                        <div class="col col-5">
+                           <img src="./assets/images/brandone.jpg" alt="brand" class="brandimg">
+                        </div>
+                        <div class="col col-6">
+                           <img src="./assets/images/brandone.jpg" alt="brand" class="brandimg">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!---contact us --->
+         <section class="contact_us_container">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="contact_wrap">
+                        <div class="contact_header_box">
+                           <h3>Contact Us</h3>
+                           <p>For any information or help about Insurance you can contact with us. We would love to hear from you!</p>
+                        </div>
+                        <div class="contact_body_box">
+                           <div class="contact_form_wrap">
+                              <div class="primary_form_box">
+                                 <div class="form_group_one">
+                                    <input type="text" placeholder="Enter Name" class="fullname_field" required>
+                                 </div>
+                                 <div class="form_group_two">
+                                    <input type="email" placeholder="Enter Email" class="email_field" required>
+                                 </div>
+                              </div>
+                              <div class="secondary_form_box">
+                                 <div class="form_group_one">
+                                    <input type="tel" placeholder="Enter Number" class="fullname_field" required>
+                                 </div>
+                                 <div class="form_group_two">
+                                    <input type="number" placeholder="Enter Postal/code" class="email_field" required>
+                                 </div>
+                              </div>
+                              <div class="tertiary_form_box">
+                                 <div class="last_form_group">
+                                    <textarea name="comment" placeholder="Type Text Message" id="comment" cols="30" rows="10"></textarea>
+                                 </div>
+                              </div>
+                              <div class="submit_box">
+                                 <button class="send_btn">
+                                 SUBMIT 
+                                 <span><i class="fas fa-paper-plane"></i></span>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-----primary footer-->
+         <section id="branche" class="branche">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6 col-md-offset-3 text-center">
+                     <div class="section-heading">
+                        <h2>Get In touch</h2>
+                        <p>Got any queries in mind! Feel free to give us a call or write us an email, our support team is always here to help you.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row branche_info">
+                  <div class="col-md-3 col-sm-6">
+                     <p class="lead">
+                        <span class="info_icons">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map primary_footer" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <polyline points="3 7 9 4 15 7 21 4 21 17 15 20 9 17 3 20 3 7" />
+                              <line x1="9" y1="4" x2="9" y2="17" />
+                              <line x1="15" y1="7" x2="15" y2="20" />
+                           </svg>
+                        </span>
+                        <span class="info_content">555 Fifth Avenue, <br>New York, NY, 10017</span> 
+                     </p>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                     <p class="lead">
+                        <span class="info_icons">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                           </svg>
+                        </span>
+                        <span class="info_content"> Phone <br>+92-42-35297333-4</span> 
+                     </p>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                     <p class="lead">
+                        <span class="info_icons">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <circle cx="12" cy="12" r="9" />
+                              <polyline points="12 7 12 12 15 15" />
+                           </svg>
+                        </span>
+                        <span class="info_content"> Timing <br> abc@gmail.com</span> 
+                     </p>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                     <p class="lead">
+                        <span class="info_icons">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <rect x="3" y="5" width="18" height="14" rx="2" />
+                              <polyline points="3 7 12 13 21 7" />
+                           </svg>
+                        </span>
+                        <span class="info_content"> Email <br> abc@gmail.com</span> 
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!---Footer section-->
+      <footer class="footer_container">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="particles-js"></div>
+                  <div class="footer_wrap">
+                     <div class="footer_row">
+                        <div class="footer_col footer_col1">
+                           <div id="text-1" class="footer-widget">
+                              <div class="footer-title">
+                                 <h2>Sanaan group</h2>
+                              </div>
+                              <div class="textwidget">
+                                 <p>Over forty years, more than a &nbsp;hundred people and multiple offices and millions of square feet later the Darvesh group is proud of consistently delivering on its commitment to build quality living,working and commercial spaces across India and eventually the globe.</p>
+                                 <p class="copy_right">© Copyright 2018 Darvesh. All Rights reserved</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="footer_col footer_col2">
+                           <div id="text-1" class="footer-widget">
+                              <div class="footer-title">
+                                 <h2>Site Map</h2>
+                              </div>
+                              <div class="textwidget">
+                                 <ul id="menu-primary-menu-1" class="menu">
+                                    <li class="menu-item menu-item-type-post_type"><a href="index.html">Home</a></li>
+                                    <li class="menu-item menu-item-type-post_type"><a href="aboutus.html">About us</a></li>
+                                    <li class="menu-item menu-item-type-post_type"><a href="product.html">Projects</a></li>
+                                    <li class="menu-item menu-item-type-post_type"><a href="ourclient.html">Media</a></li>
+                                    <li class="menu-item menu-item-type-post_type"><a href="contactus.html">Contact us</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="footer_col footer_col3">
+                           <div id="text-1" class="footer-widget">
+                              <div class="footer-title">
+                                 <h2>Current Project</h2>
+                              </div>
+                              <div class="textwidget">
+                                 <ul id="menu-primary-menu-1" class="menu">
+                                    <li class="menu-item menu-item-type-post_type"><a href="#">Sanaan Horizon</a></li>
+                                    <li class="menu-item menu-item-type-post_type"><a href="#">Sanaan Residency</a></li>
+                                    <li class="menu-item menu-item-type-post_type"><a href="#">The Palm</a></li>
+                                    <li class="menu-item menu-item-type-post_type"><a href="#">View All Project</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="footer_col footer_col4">
+                           <div id="text-3" class="footer-widget">
+                              <div class="footer-title">
+                                 <h2>Connect with us</h2>
+                              </div>
+                              <div class="textwidget">
+                                 <p>401 – Sanaan Chambers,<br> S. V. Road, Khar West,<br> Karachi – 400052</p>
+                                 <p>(+92) 22 2600 8785<br> info@Sanaangroup.com</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="copyright_container">
+         <div id="bottom-bar" class="solid-bg logo-left" role="contentinfo">
+            <div class="wf-wrap">
+               <div class="wf-container-bottom">
+                  <div class="wf-float-left">
+                     ©  Sanaan Polymer Industries (Pvt.) Limited  2020. All rights reserved.
+                  </div>
+                  <div class="wf-float-right">
+                     <div class="bottom-text-block">
+                        <p>Design &amp; Developed By<a href="#"> Techonza Technologies.</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script>
+      $('.banner_slider').owlCarousel({
+      loop:false,
+      margin:10,
+      nav:false,
+      dots:true,
+      responsiveClass:true,
+      // autoplay:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:1
+          }
+      }
+      })
+   </script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="./assets/js/app.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+   <script src="./assets/js/particles.js"></script>
+   <script src="./assets/js/apptwo.js"></script>
+</html>

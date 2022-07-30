@@ -1,0 +1,22 @@
+Blog Website 
+
+<----- Pages Info ---->
+
+1) Home
+.) Main Menu
+.) Slider
+.) About
+.) Our Products
+.) 
+ 
+2) About Us
+3) Products
+4) News
+5) Faqs
+6) Contact us
+7) Blog
+
+ 
+primary color (#2b3a78)
+secondary color (#497ef5)
+third color (#000)
